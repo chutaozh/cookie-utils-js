@@ -1,0 +1,21 @@
+{
+  "name": "cookie-utils-js",
+  "version": "1.0.0",
+  "description": "A simple js util for handling cookies.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chutao-zhang/cookie-utils-js.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "utils",
+    "cookie",
+    "cookies",
+    "cookie-utils",
+    "cookie-utils-js",
+    "javascript"
+  ],
+  "author": "ChuTao Zhang <chutao.zhang@outlook.com>",
+  "license": "MIT"
+}
