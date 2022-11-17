@@ -1,8 +1,10 @@
-# cookie-utils-js
-A simple js util for handling cookies.
+English | [中文](https://github.com/chutao-zhang/cookie-utils-js/blob/master/README-zh_CN.md)
+
+# cookie-utils-js 
+A simple JavaScript API for handling cookies.
 
 ## Install
-```js
+```powershell
 $ npm i cookie-utils-js
 # or
 $ yarn add cookie-utils-js

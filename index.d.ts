@@ -1,4 +1,4 @@
-declare namespace Cookie {
+declare namespace CookieUtils {
     interface CookieConfigProps {
         name: string;
         value: string;
@@ -46,4 +46,4 @@ declare namespace Cookie {
     function clear(): void;
 }
 
-export = Cookie; 
+export = CookieUtils; 
