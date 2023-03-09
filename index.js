@@ -141,7 +141,7 @@ module.exports = {
             var _argsType = Object.prototype.toString.call(_args);
 
             if (_argsType === '[object String]') {
-                document.cookie = object2CookiesStr({ name: _args, value: '', path: arguments[0] || '', expires: new Date() });
+                document.cookie = object2CookiesStr({ name: _args, value: '', path: arguments[1] || '', expires: new Date() });
             }
 
             if (_argsType === '[object Array]' && _args.length > 0) {

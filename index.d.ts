@@ -1,7 +1,9 @@
-declare namespace CookieUtils {
-    interface CookieConfigProps {
+declare namespace CookieUtilsJS {
+    interface BasicOptions {
         name: string;
         value: string;
+    }
+    interface CookieOptions {
         domain?: string;
         /** 路径
          * @value default: '/'
@@ -18,13 +20,15 @@ declare namespace CookieUtils {
         */
         sameSite?: 'Strict' | 'Lax' | 'None'
     }
+    type CookieFullOptions = BasicOptions & CookieOptions;
     /** 浏览器是否禁用cookie */
     var browserEnabled: {
         readonly prototype: boolean;
     }
     /** 设置cookie */
-    function set(cnf: CookieConfigProps | CookieConfigProps[]): void;
-    function set(name: string, value: string, cnf?: Omit<CookieConfigProps, 'name' | 'value'>): void;
+    function set(opts: CookieFullOptions): void;
+    function set(opts: CookieFullOptions[]): void;
+    function set(name: string, value: string, opts?: CookieOptions): void;
     /** 获取所有cookie
      * @return object | json
     */
@@ -37,13 +41,15 @@ declare namespace CookieUtils {
     /** 获取指定多个cookie
      * @params names: cookie名称数组
      */
-    function get(names: string[] | { name: string; alias?: string; }[]): any;
+    function get(names: string[]): any;
+    function get(names: { name: string; alias?: string; }[]): any;
     /** 删除cookie */
     function remove(name: string, path?: string): void;
     /** 删除多个cookie */
-    function remove(names: string[] | { name: string; path?: string; }[]): void;
+    function remove(names: string[]): void;
+    function remove(names: { name: string; path?: string; }[]): void;
     /** 清空当前path下所有cookie */
     function clear(): void;
 }
 
-export = CookieUtils; 
+export = CookieUtilsJS; 

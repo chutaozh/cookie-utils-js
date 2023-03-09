@@ -72,7 +72,7 @@ Cookie.get([
 ```js
 Cookie.remove('foo');
 // 或
-Cookie.remove('foo', path: '/'); // 删除指定path下的cookie
+Cookie.remove('foo', '/'); // 删除指定path下的cookie: Cookie.remove(name, path)
 ```
 
 * 批量删除:

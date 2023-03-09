@@ -43,7 +43,7 @@ Cookie.set({ name: 'foo', value: 'bar', expires: 7 * 1000, path: '/' });
 ```
 
 #### 2. Get cookies: `Cookie.get(...)`
-* Get all `cookies` under the current `path` and return them as `json`:
+* Get all `cookies` with current `path` and return them as `json`:
 ```js
 Cookie.get(); // => { foo: 'bar' }
 ```
@@ -71,7 +71,7 @@ Cookie.get([
 ```js
 Cookie.remove('foo');
 // or
-Cookie.remove('foo', path: '/'); // remove with path
+Cookie.remove('foo', '/'); // remove with path: Cookie.remove(name, path)
 ```
 
 * Batch remove:
@@ -85,7 +85,7 @@ Cookie.remove([
 ```
 
 #### 4. Clear cookies: `Cookie.clear()`
-Clear all cookies (attn: only cookies under the current `path(default: '/')` are supported).
+Clear all cookies (attn: only cookies with current `path(default: '/')` are supported).
 
 #### 5. Browser settings: `Cookie.browserEnabled`
 Whether the browser has enabled cookies. `(true/false)`
