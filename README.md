@@ -1,5 +1,12 @@
 English | [中文](https://github.com/chutaozh/cookie-utils-js/blob/master/README-zh_CN.md)
 
+<p>
+<img alt="npm" src="https://img.shields.io/npm/v/cookie-utils-js?logo=npm&color=%234ac41c">
+<img alt="npm" src="https://img.shields.io/npm/dm/cookie-utils-js?logo=npm&color=%234ac41c">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/chutaozh/cookie-utils-js?logo=github&color=%234ac41c">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/chutaozh/cookie-utils-js?logo=github&color=%234ac41c">
+</p>
+
 # cookie-utils-js 
 A simple JavaScript API for handling cookies.
 
