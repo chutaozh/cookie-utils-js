@@ -1,5 +1,11 @@
 [English](https://github.com/chutaozh/cookie-utils-js/blob/master/README.md) | 中文
 
+<p>
+<img alt="npm" src="https://img.shields.io/npm/v/cookie-utils-js?logo=npm&color=%234ac41c">
+<img alt="npm" src="https://img.shields.io/npm/dm/cookie-utils-js?logo=npm&color=%234ac41c">
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/chutaozh/cookie-utils-js?logo=github&color=%234ac41c">
+<img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/chutaozh/cookie-utils-js?logo=github&color=%234ac41c">
+</p>
 
 # cookie-utils-js
 一个简单的 js 库，提供几个 api 便可轻松读写 cookies。 

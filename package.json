@@ -1,6 +1,6 @@
 {
   "name": "cookie-utils-js",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple JavaScript API for handling cookies.",
   "main": "index.js",
   "repository": {
