@@ -1,11 +1,11 @@
 {
   "name": "cookie-utils-js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A simple JavaScript API for handling cookies.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chutao-zhang/cookie-utils-js.git"
+    "url": "https://github.com/chutaozh/cookie-utils-js.git"
   },
   "scripts": {},
   "keywords": [
