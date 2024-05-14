@@ -1,4 +1,4 @@
-English | [中文](https://github.com/chutao-zhang/cookie-utils-js/blob/master/README-zh_CN.md)
+English | [中文](https://github.com/chutaozh/cookie-utils-js/blob/master/README-zh_CN.md)
 
 # cookie-utils-js 
 A simple JavaScript API for handling cookies.

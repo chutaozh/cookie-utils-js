@@ -1,4 +1,4 @@
-[English](https://github.com/chutao-zhang/cookie-utils-js/blob/master/README.md) | 中文
+[English](https://github.com/chutaozh/cookie-utils-js/blob/master/README.md) | 中文
 
 
 # cookie-utils-js
